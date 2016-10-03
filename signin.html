@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<link rel = "stylesheet" type = "text/css" href = "css/basic.css">
+</head>
+
+<body background = "images/back.jpg">
+<a href = "index.html"><h1 class = "white" style = "position: absolute; left: 5px; top: 5px;"> Welcome To MeTube </h1>
+<img src = "images/play.png" height = "60" width = "60"
+             style = "position: absolute; top: 12px; left: 340px;"></a>
+<h1 class = "white" style = "position: absolute; left: 630px; top: 103px;"> Sign In </h1>
+<img src = "images/board.png" height = "330" width = "520" style = "position: absolute; top: 150px; left: 430px;">
+
+<form name = "signin_form" style = "position: absolute; top: 250px; left: 570px;"
+      action = "signin.php" method = "post">
+  <b style = "color: white; font-size: large;">Username: *</b><br/>
+  <input name="username" type="text" /> <br/><br/>
+  <b style = "color: white; font-size: large;">Password: *</b><br/>
+  <input name="password" type="password" /> <br/><br/>
+  <a href = "" style = "color: white; font-size: large;"><b> Forgot your password? </b></a>
+  <button class = "fancy_button" name = "signin" type = "submit" value = "Sign In"
+          style = "position: absolute; left: 47px; top: 200px;">
+    <span>Sign In</span></button>
+</form>
+
+</body>
+</html>

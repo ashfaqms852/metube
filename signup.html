@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<link rel = "stylesheet" type = "text/css" href = "css/basic.css">
+</head>
+
+<body background = "images/back.jpg">
+<a href = "index.html">
+<h1 class = "white" style = "position: absolute; left: 5px; top: 5px;"> Welcome To MeTube </h1>
+</a>
+<a href = "index.html">
+<img src = "images/play.png" height = "60" width = "60"
+             style = "position: absolute; top: 12px; left: 340px;"></a>
+<h1 class = "white" style = "position: absolute; left: 610px; top: 43px;"> Sign Up </h1>
+<img src = "images/board.png" height = "660" width = "600" style = "position: absolute; top: 0px; left: 380px;">
+
+<form name = "signup_form" style = "position: absolute; top: 160px; left: 530px;"
+	  method = "post" action = "signup.php">
+
+  <b style = "color: white; font-size: large;">First Name: *</b><br/>
+  <input name = "firstname" type = "text"> <br/><br/>
+  <b style = "color: white; font-size: large;">Last Name: *</b><br/>
+  <input name = "lastname" type = "text"> <br/><br/>
+  <b style = "color: white; font-size: large;">Email Address: *</b><br/>
+  <input name="email" type="text" /> <br/><br/>
+  <b style = "color: white; font-size: large;">Username: *</b><br/>
+  <input name="username" type="text" /> <br/><br/>
+  <b style = "color: white; font-size: large;">Password: *</b><br/>
+  <input name="password" type="password" /> <br/><br/>
+  <b style = "color: white; font-size: large;">Confirm Password: *</b><br/>
+  <input name="confirm_password" type="password" /> <br/><br/>
+  <button class = "fancy_button" name = "signup" type = "submit" value = "Sign Up"
+          style = "position: absolute; left: 77px; top: 400px;">
+    <span>Sign Up</span></button>
+
+</form>
+
+</body>
+</html>
